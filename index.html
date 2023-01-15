@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Password Generator</h1>
+    </div>
+    <div class="container">
+        <div class="center1 guibox">
+            <div id="inputid">
+                <label>Password &nbsp; length: </label>
+                <input type="number" name="" id="valueN">
+                <p>*max length = 20</p>
+            </div>
+            <p id="pass">______________</p>
+            <div id="buttonid">
+                <button onclick="generatePass()" id="green">Generate</button>
+                <button onclick="resetpass()" id="red">Reset</button> 
+            </div>
+        </div>
+    </div>
+
+    <footer>Developed by Prathamesh Sirdesai with ❤️</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+.container{
+    position: absolute;
+    /* background-color: gold; */
+    width: 99vw;
+    height: 95vh;
+}
+
+.center{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    /* padding: auto; */
+    text-align: center;
+}
+
+.center1 {
+    margin: auto;
+    margin-top: 0vh;
+    width: 90vh;
+    padding: 10px;
+    /* background-color: brown; */
+    text-align: center;
+    align-content: center;
+}
+
+.guibox{
+    border-radius: 30px;
+    /* background-color: #ffffff; */
+    background: rgba(204, 204, 204, 0.5);
+    border: 1px solid black;
+    /* opacity: 0.6; */
+}
+
+
+footer{
+    overflow: hidden;
+    margin-top: 69vh;
+    margin-left: -10px;
+    height: 30px;
+    width: 104.6%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(0, 183, 255, 0.5);
+}
+
+h1{
+    font-size: 100px;
+    font-family: headFont;
+    font-weight: normal;
+    text-shadow: 2px 2px 10px black;
+}
+
+body{
+    background-image: url(Assets/Background.jpg);
+    overflow: hidden;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#inputid{
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: passwordFont;
+    src: url(Assets/Typographica-Blp5.ttf);
+}
+
+@font-face{
+    font-family: headFont;
+    src: url(Assets/ProgressPersonalUse-EaJdz.ttf);
+}
+
+#inputid > label{
+    font-size: 30px;
+    font-family: passwordFont;
+}
+
+#inputid > input{
+    font-size: 40px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#inputid > p{
+    font-size: 15px;
+}
+
+button{
+    font-size: 25px;
+    font-weight: bold;
+    width: 170px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#red{
+    background-color: rgb(255, 36, 36);
+}
+
+#green{
+    background-color: rgb(77, 208, 6);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 950px){
+
+    body{
+        overflow: hidden;
+    }
+    
+    h1{
+        font-size: 55px;
+    }
+    .container{
+        position: fixed;
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .center1{
+        width: 90vw;  
+    }
+
+    p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+
+    #inputid{
+        display: inline;
+    }
+
+    #inputid > p{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-weight: normal;
+    }
+
+    footer{
+        overflow: hidden;
+        margin-top: 72vh;
+        margin-left: -10px;
+        height: 30px;
+        width: 104.6%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        background: rgba(0, 183, 255, 0.5);
+    }
+}
